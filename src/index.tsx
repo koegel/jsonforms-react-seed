@@ -9,9 +9,14 @@ const theme = createMuiTheme({
   overrides: {
     MuiFormControl: {
       root: {
-        margin: '0.8em 0',
+        margin: '0.3em 0',
       },
     },
+    MuiFormHelperText: {
+      root: {
+        minHeight: '1.6em'
+      }
+    }
   },
 });
 
